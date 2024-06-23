@@ -80,7 +80,7 @@
 запрос рецепта рецепт
 
 База данных рецептов
-https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Нарушение%20связи.png
+[https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Нарушение%20связи.png](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Нарушение%20связи.png)
  
 Вариант 2. Лекарства из специального списка
 варианты
@@ -188,18 +188,6 @@ https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Наруш
 
 
 низкоцелостные данные
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Качественные оценки доменов
