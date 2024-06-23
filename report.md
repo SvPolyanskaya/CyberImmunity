@@ -1,6 +1,6 @@
 # Робот-фармацевт
 Учебный пример для курса по кибериммунной разработке
-![](#https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Рисунок4.jpg) 
+![](#https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Рисунок5.jpg) 
 ![](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Рисунок4.jpg?raw=true)
 
 - [Учебный пример "Робот-фармацевт.](#Учебный-пример-"Робот-Фрамацевт") 
