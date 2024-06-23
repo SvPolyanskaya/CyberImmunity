@@ -138,6 +138,7 @@
 ![Сценарий генерации событий](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Robot%20pharmacy%20базовый%20сценарий.png))
  
 ### Описание Сценариев (последовательности выполнения операций), при которых ЦБ нарушаются
+![Описание Сценариев]([https](https://www.planttext.com/popout.html)
 ```plantuml
 @startuml "usecases"
 
