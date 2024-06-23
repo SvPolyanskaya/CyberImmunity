@@ -12,7 +12,7 @@
 - [Высокоуровневая архитектура системы.](#Высокоуровневая-архитектура-системы) 
 - [Компоненты:  описание подсистем](#Компоненты:-описание-подсистем)
 - [Описание Сценариев (последовательности выполнения операций), при которых ЦБ нарушаются](#описание-сценариев-последовательности-выполнения-операций-при-которых-цб-нарушаются)
-- [Указание "доверенных компонент" на архитектурной диаграмме.](#указание-доверенных-компонент-на-архитектурной-диаграмме)
+- [Негативные сценарии.](#Негативные-сценарии)
 - [Политики безопасности](#Политики-безопасности)
 - [Анализ векторов атак и эффекта.](#Анализ-векторов-атак-и-эффекта-безопасности.)
 - [Упражнение.](#Упражнение)
@@ -104,6 +104,10 @@
 Предположения безопасности
 
 - "доктор плохого не посоветует" - врачи, выписывающие рецепты, благонадёжны.
+
+## Высокоуровневая архитектура системы
+
+![](
  
 ## Компоненты:  описание подсистем
 | Название | Назначение | Комментарий |
@@ -122,10 +126,14 @@
 ### Основные функциональные сценарии получения лекарства
  Сценарий генерации событий
 ![Сценарий генерации событий](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Robot%20pharmacy%20базовый%20сценарий.png))
+ Вариант 1. Лекарства общего назначения
  
+ Вариант 2. Лекарства из специального списка
 ### Описание Сценариев (последовательности выполнения операций), при которых ЦБ нарушаются
+Вариант 1. Лекарства общего назначения
 ![Описание Сценариев:](https://www.planttext.com/api/plantuml/png/hLRBJXj14BpFLqny3_BxTOZua5msZgKW6MDvRQJSi2q84GHop25Hn2NdmS7W-FaBCt-KwkxPnRiOHKQvm7hSrTrLNTFh_R0NT7lzmvREzCDc8mYROKQfta6lrTGPU-FExCGkhN4dTch_wDoUjZ_nlCAd1pl6_pitS4DwqdQEq1c5-YEZyVsj-upZt_GzqW14oJvnqgcxHgaEoXyq3Zf1kuU2N-qQMCwJqK6eEn-2xc7G-9WCepPkxDXTsmTtoN7XSIfJ0I6_g8mRebzZv-wIIr-_RMitGEq1rrbOGmSZbAMeCPEGrYXj8Pcqo7KDK20E2Go8BUsASqtZdej9K9L0L8mrdBDo1hf6DQh9y199pC7KtOJbGqDsWZvHOeN3DVukXHkUnfobbCoIHvPlABHWjC-WASMQXsauzv17EMP9eC4j4p78UqRJvhpvbF9Pxu2fd_u5H-MooR1oYiGvnnjfWn7b9A2sPt-Gd8oWXg3gASGozXvAJpQ0jIImWahVcT8CYZATU10L5VHxH-t-uRjc5_RmLjAlty0kTKrZuB5ZVcnEBPz0QcHdRaXIhJGrn9S0ldGZ5Hu3NdWXk4Yb0HQPwGXWc54CjVRTJuIBAb1qrKTlceU227sfMTrPP41L9KGkkmiab_LLw8gAdUnA4XLIXwfrTDJHTAl8wdDgV8K0p0XFIs9BDK-z44GRDM0h8LAgaoIFZk3otD5JwxahRSUHeEJWUoY5Dh0tbdYwqYpV2LANA7M-hhdDXL0McWY4TT0MRC_N1aBGtedMbSf7Ohq0AwhbKmBb8vwRXwMupFzdBssabOqNXfYK3OKBI8U-dS8k29vUhQurkLMwP6g-VLcYaaqiJPtLFEjTCCA6AYK4h6tp8ZTLJj4u5ukhybR9es-bJ3cLiFni5HOhSJNDPbIy_bCBm1gbckttIf9KwlBwc_7xnSlmnRyri8U16CaQYOTRYLdi21I2bHINohC4dx-PVgyXcAl4I7V1rto3B0x_wVJTiZrw-ybjsig2Dtfg1ST1hvJQnp3mA-Sl)
 
+Вариант 2. Лекарства из специального списка
 
 **Отдельная диаграмма для первого негативного сценария 
 ![](https://www.planttext.com/api/plantuml/png/hLPDRzf04BtlhzZISoemiGqSgloFjWUNM2fIGX0saNfBG4bJ9KrwxA5LbKlF3Yq9XG1_OVSVzStiuc83HKIz9CioR-RDcuzbBug3TjmvF925JXJMWoYC2aB4ZVWWb0Lrgy_LG4rKea_KKFsMfHTIVSTvYayFge__l_Ifxj99gZ5CHsHghnA9x-_qHrp_fE_X1Y1oze6T3lKDGhKGlb5lj89cZ82VrGnOzbEGGIHRxuBsOL1_dpKZ6hUghs_KWxvYk-XOIlcy7Uxd79PX-OEYwIve9sgihvZ1pUkcrAUWSChX7bL25pr49wi-vs8OalTorkakXq-0GlvG8a5-4pLbNyEK-cuML24G1MCfnonW0dddCIfPSvUKPcDYDs0LGKWDm1CXfhYSuU_4v8PJdxsuMIyEl7n1e4T6Mm-INCoufWdxxd95-om9DBZZH1BuFQUYirydLu2YROIXRO9BjYeLisPUBeaBjayC3KPuMK3rXVf6SZA2247LCuYLg7ieFLW0LhD07v6-SaeZAChff8NmHT29ZvgTmxTX6-rXEqhkl4JNr2ILWSkE-d6FIlC9IVNKI7T9ggaaGZmBQ4_T4z7npYlgjZTmKfPFTB9B5CerQUIcAu3HbAQnPZQBWSb91FMuSHp48PgnJC2A1Ixs4zcJeol9We_cFIdsmmLuUgo82dag5RTnbQ9Hx5BHCg41Drsefel1O5EnMQupgGWX3ewEMZozagQLHcXCGao1GUrncf1wHF3C2aioWX3QLGBFWhWrKlblip5Tpc2vg_MrLFrvZMWuxY4-o64pJN2wbboH4nGfvUaAbw8uDSbvF1grZ4B0e4514iF5mmaDQSdDTwDmvZe_0PioSApUpden7HF9pLcuQVZ_Bv3Xb1S_NLTcDBYDCVvqcI7i2aEkl0q-FmhLcfGqF8O-vsppChlTE3OJHfHNJqDLLArCJ_HLjLeGdOpyrLKZa4_2oobmOSPl3LbFU2jhEaSP9bukfhTX5Zr3XOkHMJ_98YHzwd9BJYL2XCrzEuv-pRpu8tvBhOQVx0k9DmU8dbcLoxFc2p_DRaiVA_QJ_y_zv6_Gn5-grFf5OpS_3p5JIttgIrvT2sBXSarjtOtpkcsSPKto6oAhYRj14zS8mSzdxfrB4S-4s4Ctu9Vb7m00)
@@ -152,18 +160,8 @@
 -	всё остальное из варианта 1.
 
 
-задание на производство для конкретного робота-фармацевта
-
-
-Робот-фармацевт
- 
-
-запрос рецепта рецепт
- 
-База данных рецептов (переделать ссылку)
-https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Нарушение%20связи.png
- 
-	
+### Негативные сценарии
+Вариант 2. Лекарства из специального списка	
  ### Алгоритм работы решения
   
 ### Анализ векторов атак и эффекта 
