@@ -138,54 +138,9 @@
 ![Сценарий генерации событий](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Robot%20pharmacy%20базовый%20сценарий.png))
  
 ### Описание Сценариев (последовательности выполнения операций), при которых ЦБ нарушаются
-![Описание Сценариев:](https://www.planttext.com/api/plantuml/png/hLRBJXj14BpFLqny3_BxTOZua5msZgKW6MDvRQJSi2q84GHop25Hn2NdmS7W-FaBCt-KwkxPnRiOHKQvm7hSrTrLNTFh_R0NT7lzmvREzCDc8mYROKQfta6lrTGPU-FExCGkhN4dTch_wDoUjZ_nlCAd1pl6_pitS4DwqdQEq1c5-YEZyVsj-upZt_GzqW14oJvnqgcxHgaEoXyq3Zf1kuU2N-qQMCwJqK6eEn-2xc7G-9WCepPkxDXTsmTtoN7XSIfJ0I6_g8mRebzZv-wIIr-_RMitGEq1rrbOGmSZbAMeCPEGrYXj8Pcqo7KDK20E2Go8BUsASqtZdej9K9L0L8mrdBDo1hf6DQh9y199pC7KtOJbGqDsWZvHOeN3DVukXHkUnfobbCoIHvPlABHWjC-WASMQXsauzv17EMP9eC4j4p78UqRJvhpvbF9Pxu2fd_u5H-MooR1oYiGvnnjfWn7b9A2sPt-Gd8oWXg3gASGozXvAJpQ0jIImWahVcT8CYZATU10L5VHxH-t-uRjc5_RmLjAlty0kTKrZuB5ZVcnEBPz0QcHdRaXIhJGrn9S0ldGZ5Hu3NdWXk4Yb0HQPwGXWc54CjVRTJuIBAb1qrKTlceU227sfMTrPP41L9KGkkmiab_LLw8gAdUnA4XLIXwfrTDJHTAl8wdDgV8K0p0XFIs9BDK-z44GRDM0h8LAgaoIFZk3otD5JwxahRSUHeEJWUoY5Dh0tbdYwqYpV2LANA7M-hhdDXL0McWY4TT0MRC_N1aBGtedMbSf7Ohq0AwhbKmBb8vwRXwMupFzdBssabOqNXfYK3OKBI8U-dS8k29vUhQurkLMwP6g-VLcYaaqiJPtLFEjTCCA6AYK4h6tp8ZTLJj4u5ukhybR9es-bJ3cLiFni5HOhSJNDPbIy_bCBm1gbckttIf9KwlBwc_7xnSlmnRyri8U16CaQYOTRYLdi21I2bHINohC4dx-PVgyXcAl4I7V1rto3B0x_wVJTiZrw-ybjsig2Dtfg1ST1hvJQnp3mA-Sl)?
+![Описание Сценариев:](https://www.planttext.com/api/plantuml/png/hLRBJXj14BpFLqny3_BxTOZua5msZgKW6MDvRQJSi2q84GHop25Hn2NdmS7W-FaBCt-KwkxPnRiOHKQvm7hSrTrLNTFh_R0NT7lzmvREzCDc8mYROKQfta6lrTGPU-FExCGkhN4dTch_wDoUjZ_nlCAd1pl6_pitS4DwqdQEq1c5-YEZyVsj-upZt_GzqW14oJvnqgcxHgaEoXyq3Zf1kuU2N-qQMCwJqK6eEn-2xc7G-9WCepPkxDXTsmTtoN7XSIfJ0I6_g8mRebzZv-wIIr-_RMitGEq1rrbOGmSZbAMeCPEGrYXj8Pcqo7KDK20E2Go8BUsASqtZdej9K9L0L8mrdBDo1hf6DQh9y199pC7KtOJbGqDsWZvHOeN3DVukXHkUnfobbCoIHvPlABHWjC-WASMQXsauzv17EMP9eC4j4p78UqRJvhpvbF9Pxu2fd_u5H-MooR1oYiGvnnjfWn7b9A2sPt-Gd8oWXg3gASGozXvAJpQ0jIImWahVcT8CYZATU10L5VHxH-t-uRjc5_RmLjAlty0kTKrZuB5ZVcnEBPz0QcHdRaXIhJGrn9S0ldGZ5Hu3NdWXk4Yb0HQPwGXWc54CjVRTJuIBAb1qrKTlceU227sfMTrPP41L9KGkkmiab_LLw8gAdUnA4XLIXwfrTDJHTAl8wdDgV8K0p0XFIs9BDK-z44GRDM0h8LAgaoIFZk3otD5JwxahRSUHeEJWUoY5Dh0tbdYwqYpV2LANA7M-hhdDXL0McWY4TT0MRC_N1aBGtedMbSf7Ohq0AwhbKmBb8vwRXwMupFzdBssabOqNXfYK3OKBI8U-dS8k29vUhQurkLMwP6g-VLcYaaqiJPtLFEjTCCA6AYK4h6tp8ZTLJj4u5ukhybR9es-bJ3cLiFni5HOhSJNDPbIy_bCBm1gbckttIf9KwlBwc_7xnSlmnRyri8U16CaQYOTRYLdi21I2bHINohC4dx-PVgyXcAl4I7V1rto3B0x_wVJTiZrw-ybjsig2Dtfg1ST1hvJQnp3mA-Sl)
 
-```plantuml
-@startuml "usecases"
 
-title "Сценарий 1. Производство лекарства общего назначения"
-
-participant "Аптека" as pharmacy
-participant "1. Связь" as sv
-
-participant "3. Центральная\n система\n управления" as 3
-participant "4. Самодиагностика" as 4
-participant "8. Стерилизация" as 8
-participant "5. Перемещение\n компонентов" as 5
-participant "2. Изменение \n параметров\n субстанций" as 2
-participant "10. Приводы" as 10
-participant "6. Перемешивание" as 6
-participant "9.Нагрев\n охлаждение" as 9
-participant "7. Маркировка" as 7
-autonumber
-
-pharmacy -> sv++: запрос на продукт по рецепту
-sv ->3++: запрос на продукт по рецепту
-4 -> 3++: статус самопроверки
-3 -> 8++: стерилизовать емкости
-8 -> 10++: стерилизовать емкости
-10 -> 8++: готово
-8 -> 3++: готово
-3 -> 5++: переместить субстанцию в промежуточную тару
-5 -> 2++: отмерить нужное количество
-2 -> 10++: отмерить нужное количество
-10 -> 2++: готово
-2 -> 5++: готово
-5 -> 10++: переместить субстанцию в промежуточную тару
-10 -> 5++: перемещение завершено
-5 -> 3++: перемещение завершено
-3 -> 9++:  установить температуру
-9 -> 10++:установить температуру
-10 -> 9++:  готово
-9 -> 3++: готово
-3 -> 6++: перемешать
-6 -> 10++: перемешать
-10 -> 6++: готово
-6 -> 3++: готово
-3 -> 3++: проверка готовности продукта
-3 -> 7++: наклеить этикетку на тару
-@enduml
-```
 **Отдельная диаграмма для первого негативного сценария - Verifier не проверил файл обновления:**
 ![](https://github.com/SvPolyanskaya/CyberImmunity/blob/Robot-in-Pharmacy/Нарушение%20связи.png)
 
